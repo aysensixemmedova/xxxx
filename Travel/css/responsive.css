@@ -1,0 +1,15 @@
+@media (max-width: 576px) {
+  .slider {
+    padding-top: 2rem;
+  }
+}
+
+@media (max-width: 962px) {
+  #header {
+    display: none;
+  }
+  #phone-header {
+    display: block;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

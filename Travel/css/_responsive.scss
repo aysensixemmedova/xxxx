@@ -1,0 +1,433 @@
+@media (max-width: 576px) {
+    .slider {
+        padding-top: 2rem;
+    }
+
+    #search {
+        .box {
+            transform: scale(1);
+        }
+    }
+
+    #travel {
+        .bg-image {
+            .travel-text {
+                span {
+                    font-size: 61px !important;
+                }
+
+                input {
+                    display: block;
+                    width: 100% !important;
+                    margin-bottom: 1rem;
+                }
+
+                button {
+                    width: 100%;
+                }
+
+                p {
+                    font-size: 14px;
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+
+    #contact {
+        padding-bottom: 4rem !important;
+
+        .allmap {
+            .map-visit {
+                position: relative !important;
+            }
+        }
+    }
+
+    #steinbeck {
+        .steinbeck-text {
+            top: 40% !important;
+
+            hr {
+                width: 100% !important;
+                height: 5px !important;
+            }
+
+            p {
+                font-size: 1rem !important;
+                margin-top: 3rem !important;
+            }
+        }
+    }
+
+    #first-minutes {
+        .first-text {
+            h4 {
+                font-size: 12px !important;
+            }
+        }
+    }
+
+    #way {
+        .way-text {
+            p {
+                font-size: 14px !important;
+            }
+        }
+    }
+    .cityslider{
+        div{
+            img{
+                width: 210px !important;
+                height: 210px !important;
+            }
+        }
+    }
+    //About
+    #lovetravel {
+        .bg-image {
+            .travel-text {
+                span {
+                    font-size: 61px !important;
+                }
+
+                input {
+                    display: block;
+                    width: 100% !important;
+                    margin-bottom: 1rem;
+                }
+
+                button {
+                    width: 100%;
+                }
+
+                p {
+                    font-size: 14px;
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+    #travelStory {
+        .travelStory-text {
+            .p1 {
+                width: 100%;
+                font-size: 14px !important;
+            }
+            p {
+                font-size: 12px !important;
+            }
+        }
+        .travelStorySlider {
+            img {
+                height: 200px !important;
+            }
+        }
+    }
+    #greatTours {
+        .greatToursSlider {
+            .box {
+                a {
+                    top: 55% !important;
+                    font-size: 20px !important;
+                }
+            }
+        }
+    }
+    #awesome {
+        padding: 0 20px !important;
+        .awesomeSlider {
+            .slick-prev,
+            .slick-next {
+                top: 34rem !important;
+            }
+        }
+    }
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+    #awesome {
+        padding: 0 20px !important;
+        .awesomeSlider {
+            .slick-prev,
+            .slick-next {
+                display: block;
+                top: 30rem !important;
+            }
+        }
+    }
+    .cityslider{
+        div{
+            img{
+                width: 210px !important;
+                height: 210px !important;
+            }
+        }
+    }
+}
+@media (max-width: 992px) {
+    .header {
+        display: none;
+    }
+    .phone-header {
+        display: block;
+        z-index: 500;
+        position: relative;
+        .menu-btn {
+            position: relative;
+            left: 0;
+        }
+        #menuexit{
+            cursor: pointer;
+            position: absolute;
+            left: 60%;
+            font-size: 25px;
+            font-weight: 800;
+            display: none;
+        }
+        body,
+        .menu-btn,
+        nav > ul {
+            transition: left 0.45s cubic-bezier(0.42, 0.97, 0.52, 1.49);
+        }
+        body.body-menu-open {
+            left: 280px; /* according to the menu width */
+            cursor: pointer;
+            overflow-x: hidden;
+            opacity: 1;
+            display: block;
+        }
+        
+        body.body-menu-open:after {
+            content: "";
+            background-color: rgba(0, 0, 0, 0.45);
+            position: absolute;
+            min-height: 100vh;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            height: 100%;
+            z-index: -1;
+        }
+        
+        nav > ul {
+            padding: 0;
+            position: absolute;
+            top: 0;
+            font-weight: 700;
+            left: -280px;
+            width: 280px;
+            background-color: #fff;
+            height: 100vh;
+            box-shadow: inset -5px 0 10px #181818;
+            overflow-x: hidden;
+            overflow-y: scroll;
+            i{
+                padding: 20px ;
+            }
+        }
+        
+        .menu-btn:before,
+        .menu-btn:after {
+            font-size: 50px;
+            color: #181818;
+            line-height: 1;
+            position: relative;
+            top: -10px;
+            left: -3px;
+        }
+        .menu-btn:before {
+            content: "\02261";
+        }
+        .menu-btn-open:after {
+            content: "\02261";
+            left: -6px;
+        }
+        .menu-btn-open:before {
+            content: none;
+        }
+        
+        /* MENU ITEMS */
+        .menu li a {
+            display: block;
+            font-size: 14px;
+            text-transform: uppercase;
+            padding: 15px 0px;
+            color: #181818;
+            position: relative;
+        }
+        
+        .menu > li {
+            border-bottom: 1px solid #181818;
+        }
+        
+        /* DROPDOWN */
+        .menu li ul {
+            font-weight: 500;
+            background-color: #fff;
+            padding-left: 35px;
+            display: none;
+        }
+        .menu li li a {
+            font-size: 80%;
+            padding: 10px 20px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .menu li li a:after {
+            font-weight: 300;
+            padding: 10px;
+            content: "";
+            position: absolute;
+            z-index: -1;
+            left: -99999px;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            border-bottom: 1px solid  grey;
+        }
+        
+        /* PLUS MINUS SIGN */
+        .caret {
+            position: absolute;
+            right: 0;
+            color: #181818;
+            width: 45px;
+            top: 0;
+            bottom: 0;
+            padding-top: 10px;
+            text-align: center;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .caret-up:after {
+            content: ' \21D8';
+        }
+        .caret-down:after {
+            content: ' \21D9';
+        }
+        .menu li li .caret {
+            padding-top: 3px;
+        }
+        
+        .menu-btn:before,
+        .menu-btn:after,
+        .caret:after {
+            font-family: "san-serif";
+            font-weight: 600;
+        }
+        }
+    /*
+    .slider {
+        .slick-prev,
+        .slick-next {
+            display: none !important;
+        }
+    }*/
+    #person {
+        .left {
+            .personleft{
+                display: none !important;
+            }
+        }
+        .personright{
+            padding: 1rem;
+            .box{
+                p{
+                    font-size:12px;
+                }
+                img{
+                    display:block!important;
+                }
+            }
+        }
+    }
+    #way{
+        padding-bottom: 1rem !important ;
+    }
+    #travel {
+        .bg-image {
+            .travel-text {
+                span {
+                    display: block !important;
+                }
+            }
+        }
+    }
+
+    #steinbeck {
+        .steinbeck-text {
+            hr {
+                width: 100% !important;
+                height: 5px !important;
+            }
+
+            p {
+                font-size: 1rem !important;
+                margin-top: 3rem !important;
+            }
+        }
+    }
+
+    #footer {
+        .footer-top {
+            .box {
+                p {
+                    font-size: 10px !important;
+                }
+
+                input {
+                    margin-top: 10px;
+                }
+            }
+        }
+
+        .footer-bottom {
+            .right {
+                text-align: center !important;
+
+                p {
+                    display: block;
+                }
+
+                a {
+                    font-size: 8px !important;
+                }
+            }
+        }
+    }
+    //ABOUT
+    #greatTours {
+        .greatToursSlider {
+            .slick-prev,
+            .slick-next {
+                top: 18rem !important;
+            }
+        }
+    }
+}
+
+@media (min-width: 1260px) {
+    #search {
+        .all {
+            .col-6 {
+                width: 20%;
+            }
+        }
+    }
+
+    #footer {
+        .footer-top {
+            .box {
+                text-align: start !important;
+                margin-bottom: 20px;
+
+                input {
+                    padding: 0;
+                }
+            }
+        }
+    }
+}

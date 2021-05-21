@@ -1,0 +1,770 @@
+//TRAVEL//
+#lovetravel {
+    padding: 20px;
+    .bg-image {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        object-fit: cover;
+        background-image: url(http://travelicious.bold-themes.com/main-demo/wp-content/uploads/sites/2/2018/09/bgn-home-beach.jpg);
+        .travel-text {
+            text-align: center;
+            padding: 6rem 2rem;
+            margin: 0 auto;
+            .span1 {
+                position: relative;
+                font-weight: 800;
+                font-family: sans-serif;
+                z-index: 1;
+                &::after {
+                    content: "";
+                    position: absolute;
+                    bottom: 2px;
+                    width: 95%;
+                    left: 0;
+                    background: linear-gradient(to right, #1976bc 0%, #8dc645 100%);
+                    height: 28px;
+                    z-index: -1;
+                }
+            }
+
+            span {
+                font-family: sans-serif;
+                font-weight: 500;
+                font-size: 56px;
+                line-height: 56px;
+                color: #181818;
+            }
+
+            p {
+                font-size: 18px;
+                margin: 2rem 0;
+                color: #000;
+            }
+
+            input {
+                margin-right: 10px;
+                width: 80%;
+                outline: none;
+                padding: 20px;
+                border-radius: 5px;
+                border: none;
+            }
+
+            button {
+                border-radius: 2px;
+                padding: 20px 40px;
+                color: #fff;
+                background-color: #1976bc;
+                border: #1976bc;
+                line-height: 24px;
+                font-size: 14px;
+                font-weight: 700;
+                transition: 0.4s;
+
+                &:hover {
+                    transform: translateY(-5px);
+                    background: linear-gradient(to top, #1976bc 0%, #8dc645 100%);
+                }
+            }
+        }
+    }
+}
+//ABOUTUS
+#aboutUs {
+    background-image: url(http://travelicious.bold-themes.com/main-demo/wp-content/uploads/sites/2/2018/08/bgn-heading-01.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 7rem 0;
+    z-index: 1;
+    position: relative;
+    .overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: linear-gradient(to right, #1976bc 0%, #8dc645 100%);
+        opacity: 0.7;
+        z-index: -1;
+    }
+    .aboutUs-text {
+        text-align: center;
+        color: #fff;
+        margin: 0 auto;
+        a {
+            color: #fff;
+            transition: 0.4s;
+            font-size: 20px;
+            line-height: 17px;
+            font-weight: 400;
+            font-family: Arial, Helvetica, sans-serif;
+            &:hover {
+                color: #aba8a8;
+            }
+        }
+        h2 {
+            color: #fff;
+            transition: 0.4s;
+            font-size: 56px;
+            line-height: 56px;
+            font-weight: 800;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p {
+            color: #fff;
+            font-size: 18px;
+            line-height: 32px;
+            font-weight: 400;
+        }
+    }
+}
+//TRAVELSTORY
+#travelStory {
+    padding: 4rem 0;
+    .travelStory-text {
+        text-align: center;
+        margin: 0 auto;
+        padding: 4rem 0;
+        .span1 {
+            position: relative;
+            font-weight: 800;
+            font-family: sans-serif;
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: 2px;
+                width: 95%;
+                left: 0;
+                background: linear-gradient(to right, #1976bc 0%, #8dc645 100%);
+                height: 28px;
+                z-index: -1;
+            }
+        }
+        span {
+            font-family: sans-serif;
+            font-weight: 500;
+            font-size: 56px;
+            line-height: 56px;
+            color: #181818;
+        }
+        .p1 {
+            width: 80%;
+            color: #181818;
+            margin: 20px auto;
+            font-size: 1.2rem;
+            line-height: 32px;
+        }
+        p {
+            margin: 20px 0;
+            line-height: 28px;
+            font-size: 1rem;
+            color: #181818;
+        }
+    }
+    .travelStorySlider {
+        overflow-x: hidden;
+        img {
+            width: 100%;
+            height: 300px;
+        }
+    }
+}
+//ourMission
+#ourMission {
+    padding: rem 0;
+    .ourMission-text {
+        text-align: center;
+        margin: 0 auto;
+        padding: 4rem 0;
+        .span1 {
+            position: relative;
+            font-weight: 800;
+            font-family: sans-serif;
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: 2px;
+                width: 95%;
+                left: 0;
+                background: linear-gradient(to right, #1976bc 0%, #8dc645 100%);
+                height: 28px;
+                z-index: -1;
+            }
+        }
+        span {
+            font-family: sans-serif;
+            font-weight: 500;
+            font-size: 56px;
+            line-height: 56px;
+            color: #181818;
+        }
+        .p1 {
+            width: 80%;
+            color: #181818;
+            margin: 20px auto;
+            font-size: 1.2rem;
+            line-height: 32px;
+        }
+        p {
+            margin: 20px 0;
+            line-height: 28px;
+            font-size: 1rem;
+            color: #181818;
+        }
+    }
+}
+//Team boxlarin icindekiler ferqli olanda withlerini nece eyni edim
+#team {
+    .team-text {
+        text-align: center;
+        margin: 0 auto;
+        padding: 4rem 0;
+        .span1 {
+            position: relative;
+            font-weight: 800;
+            font-family: sans-serif;
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: 2px;
+                width: 95%;
+                left: 0;
+                background: linear-gradient(to right, #1976bc 0%, #8dc645 100%);
+                height: 28px;
+                z-index: -1;
+            }
+        }
+        span {
+            font-family: sans-serif;
+            font-weight: 500;
+            font-size: 56px;
+            line-height: 56px;
+            color: #181818;
+        }
+        p {
+            margin: 20px 0;
+            line-height: 28px;
+            font-size: 1.2rem;
+            color: #181818;
+        }
+    }
+    .all {
+        .box {
+            box-shadow: 0px 0px 11px 2px #c3c3c3;
+            .top {
+                overflow: hidden;
+                position: relative;
+                &:hover {
+                    button {
+                        z-index: 1;
+                        opacity: 1;
+                    }
+                    img {
+                        transform: scale(1.1);
+                        filter: brightness(0.6);
+                    }
+                }
+                button {
+                    opacity: 0;
+                    bottom: 8%;
+                    left: 8%;
+                    position: absolute;
+                    border-radius: 2px;
+                    padding: 15px;
+                    color: #fff;
+                    background-color: #1976bc;
+                    border: #1976bc;
+                    line-height: 24px;
+                    font-size: 14px;
+                    font-weight: 700;
+                    transition: 0.8s;
+                    &:hover {
+                        transform: translateY(-5px);
+                        background: linear-gradient(to bottom, #1976bc 0%, #8dc645 100%);
+                    }
+                }
+                img {
+                    width: 100%;
+                    transition: 0.8s;
+                }
+            }
+            .bottom {
+                padding: 20px 10px;
+                .span1 {
+                    position: relative;
+                    font-weight: 800;
+                    font-family: sans-serif;
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        bottom: 2px;
+                        width: 95%;
+                        left: 0;
+                        background: linear-gradient(to right, #1976bc 0%, #8dc645 100%);
+                        height: 28px;
+                        z-index: -1;
+                    }
+                }
+                span {
+                    font-family: sans-serif;
+                    font-weight: 400;
+                    font-size: 25px;
+                    line-height: 25px;
+                    color: #181818;
+                }
+                P {
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 25px;
+                    color: #181818;
+                    margin: 5px 0 10px 0;
+                }
+                h3 {
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 30px;
+                    color: #1976bc;
+                    transition: 0.4s;
+
+                    i {
+                        margin-left: 10px;
+                        font-size: 12px;
+                    }
+
+                    &:hover {
+                        transform: translateY(-5px);
+                        transition: 0.4s;
+                        color: #181818;
+                    }
+                }
+            }
+        }
+    }
+}
+//Great&Tours
+#greatTours {
+    .slick-track{
+        padding: 2rem 0;
+    }
+    .greatTours-text {
+        text-align: center;
+        margin: 0 auto;
+        padding: 4rem 0;
+        .span1 {
+            position: relative;
+            font-weight: 800;
+            font-family: sans-serif;
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: 2px;
+                width: 95%;
+                left: 0;
+                background: linear-gradient(to right, #1976bc 0%, #8dc645 100%);
+                height: 28px;
+                z-index: -1;
+            }
+        }
+        span {
+            font-family: sans-serif;
+            font-weight: 500;
+            font-size: 56px;
+            line-height: 56px;
+            color: #181818;
+        }
+        .p1 {
+            width: 80%;
+            color: #181818;
+            margin: 20px auto;
+            font-size: 1.2rem;
+            line-height: 32px;
+        }
+        p {
+            margin: 20px 0;
+            line-height: 28px;
+            font-size: 1rem;
+            color: #181818;
+        }
+    }
+    .greatToursSlider {
+        padding-bottom: 4rem;
+        .box {
+            overflow: visible;
+            z-index: 77;
+            position: relative;
+            box-shadow: 0 0 5px 0;
+            margin: 10px;
+            background-color: #fff;
+            transition: 0.4s;
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                width: 0%;
+                left: 0;
+                background: linear-gradient(to right, #1976bc 0%, #8dc645 100%);
+                height: 4px;
+                z-index: 1;
+                transition: 0.4s;
+            }
+            &:hover {
+                transform: translateY(-10px);
+                box-shadow: 5px 5px 22px 0;
+                &::after {
+                    width: 100%;
+                }
+
+                img {
+                    filter: brightness(0.7);
+                }
+            }
+            .sticky {
+                position: absolute;
+                top: -2%;
+                z-index: 40;
+                left: -2%;
+
+                p {
+                    background-color: #8dc645;
+                    color: #fff;
+                    padding: 5px 20px;
+                    margin: 0;
+                    letter-spacing: -1px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                }
+
+                p:nth-child(2),
+                .p1 {
+                    font-size: 1rem;
+                    float: left;
+                    padding: 8px 25px;
+                    background-color: #1976bc;
+
+                    del {
+                        color: #fff;
+                        font-weight: 300;
+                        margin-right: 10px;
+                    }
+                }
+            }
+            a {
+                color: #fff;
+                z-index: 88;
+                top: 50%;
+                left: 50%;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 800;
+                font-size: 30px;
+                text-align: center;
+                position: absolute;
+                transform: translate(-50%, -50%);
+            }
+            img {
+                transition: 0.5s;
+                width: 100%;
+            }
+        }
+        .slick-prev {
+            top: 23rem;
+            z-index: 3881;
+            left: 20px;
+            &::before {
+                color: #181818;
+                display: block;
+                font-size: 34px;
+                line-height: 44px;
+                width: 3.125rem;
+                border-top: 2px solid;
+                display: block;
+                content: "";
+                font-size: 0.6875rem;
+                line-height: 3rem;
+                font-family: inherit;
+            }
+
+            &::after {
+                color: #181818;
+                content: "Previous";
+                display: block;
+                font-size: 14px;
+                margin-left: 3.5rem;
+            }
+        }
+
+        .slick-next {
+            top: 23rem;
+            z-index: 3881;
+            right: 3.5rem;
+            &::before {
+                width: 3.125rem;
+                border-top: 2px solid;
+                display: block;
+                content: "";
+                font-size: 0.6875rem;
+                line-height: 3rem;
+                font-family: inherit;
+                color: #181818;
+            }
+
+            &::after {
+                margin-left: -3.75rem;
+                color: #181818;
+                content: "Next";
+                display: block;
+                font-size: 14px;
+            }
+        }
+    }
+}
+//Contact//
+#contacttravel {
+    padding: 4rem 0;
+    .contact-text {
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 2rem;
+        .span1 {
+            position: relative;
+            font-weight: 800;
+            font-family: sans-serif;
+
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: 2px;
+                width: 95%;
+                left: 0;
+                background: linear-gradient(to right, #1976bc 0%, #8dc645 100%);
+                height: 28px;
+                z-index: -1;
+            }
+        }
+
+        span {
+            font-family: sans-serif;
+            font-weight: 500;
+            font-size: 56px;
+            line-height: 56px;
+            color: #181818;
+        }
+
+        p {
+            color: #181818;
+            margin-top: 30px;
+            font-size: 1.1rem;
+            line-height: 32px;
+        }
+    }
+    .allmap {
+        position: relative;
+        .map-visit {
+            top: 60px;
+            left: 60px;
+            z-index: 55;
+            position: absolute;
+            padding: 40px;
+            background: linear-gradient(135deg, #1976bc 0%, #8dc645 100%);
+            width: 350px;
+            height: 500px;
+            box-shadow: 0px 10px 15px 10px #aba8a8;
+
+            .top {
+                span {
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: 500;
+                    font-size: 30px;
+                    line-height: 30px;
+                    color: #fff;
+                }
+
+                p {
+                    padding-bottom: 20px;
+                    border-bottom: 1px solid #dccbcb;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 30px;
+                    color: #fff;
+                }
+            }
+
+            .bottom {
+                .box {
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: start;
+
+                    .left {
+                        margin-right: 20px;
+
+                        i {
+                            font-size: 40px;
+                            color: #fff;
+                        }
+                    }
+
+                    .right {
+                        span {
+                            font-family: Arial, Helvetica, sans-serif;
+                            font-weight: 800;
+                            font-size: 20px;
+                            line-height: 30px;
+                            color: #fff;
+                        }
+                        p {
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//Awesome Reviews olculeri eyni deyil
+#awesome {
+    padding: 0 40px;
+    .awesome-text {
+        text-align: center;
+        margin: 0 auto;
+        padding: 4rem 0;
+        .span1 {
+            position: relative;
+            font-weight: 800;
+            font-family: sans-serif;
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: 2px;
+                width: 95%;
+                left: 0;
+                background: linear-gradient(to right, #1976bc 0%, #8dc645 100%);
+                height: 28px;
+                z-index: -1;
+            }
+        }
+        span {
+            font-family: sans-serif;
+            font-weight: 500;
+            font-size: 56px;
+            line-height: 56px;
+            color: #181818;
+        }
+        .p1 {
+            width: 80%;
+            color: #181818;
+            margin: 20px auto;
+            font-size: 1.2rem;
+            line-height: 32px;
+        }
+        p {
+            margin: 20px 0;
+            line-height: 28px;
+            font-size: 1rem;
+            color: #181818;
+        }
+    }
+    .awesomeSlider {
+        padding-bottom: 2rem;
+        overflow: hidden;
+        .box {
+            outline: none;
+            padding: 20px;
+            text-align: center;
+            .top {
+                img {
+                    border-radius: 100%;
+                }
+            }
+            .bottom {
+                span {
+                    display: inline-block;
+                    margin: 30px 0 10px 0;
+                    font-size: 25px;
+                    line-height: 25px;
+                    font-weight: 800;
+                    color: #181818;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                .icon {
+                    i {
+                        color: #8dc645;
+                    }
+                }
+                h3 {
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 30px;
+                    color: #1976bc;
+                    margin-top: 20px;
+                    transition: 0.4s;
+
+                    i {
+                        margin-left: 10px;
+                        font-size: 12px;
+                    }
+
+                    &:hover {
+                        transform: translateY(-5px);
+                        transition: 0.4s;
+                        color: #181818;
+                    }
+                }
+            }
+        }
+        .slick-prev {
+            padding: 2rem;
+            top: 27.5rem;
+            z-index: 3881;
+            left: 20px;
+            &::before {
+                color: #181818;
+                display: block;
+                font-size: 34px;
+                line-height: 44px;
+                width: 3.125rem;
+                border-top: 2px solid;
+                display: block;
+                content: "";
+                font-size: 0.6875rem;
+                line-height: 3rem;
+                font-family: inherit;
+            }
+
+            &::after {
+                color: #181818;
+                content: "Previous";
+                display: block;
+                font-size: 14px;
+                margin-left: 3.5rem;
+            }
+        }
+
+        .slick-next {
+            padding: 2rem;
+            top: 27.5rem;
+            z-index: 3881;
+            right: 3.5rem;
+            &::before {
+                width: 3.125rem;
+                border-top: 2px solid;
+                display: block;
+                content: "";
+                font-size: 0.6875rem;
+                line-height: 3rem;
+                font-family: inherit;
+                color: #181818;
+            }
+
+            &::after {
+                margin-left: -3.75rem;
+                color: #181818;
+                content: "Next";
+                display: block;
+                font-size: 14px;
+            }
+        }
+    }
+}
